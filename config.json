@@ -1,0 +1,10 @@
+{
+  "crawler": {
+    "user_agent_prefix": "Sentinel-DO/0.1",
+    "timeout": 10,
+    "crawl_delay": 1.5
+  },
+  "endpoints": {
+    "ioa_base_url": "https://diario.imprensaoficial.am.gov.br/apifront/portal/edicoes"
+  }
+}

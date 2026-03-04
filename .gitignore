@@ -1,2 +1,15 @@
-venv
-__pycache__
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Banco de Dados e Dados Locais
+data/*.db
+data/*.sqlite
+data/*.json
+
+# IDEs
+.vscode/
+.idea/
