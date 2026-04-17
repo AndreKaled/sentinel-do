@@ -3,3 +3,7 @@
 - Apostar na modularização ou generalizar a coleta?
 - Em quais ferramentas posso usar?
 - Como documentar?
+
+# Anotações
+- Olhar algoritmo BM25
+- embedding para comparação semântica?
