@@ -8,19 +8,6 @@ O sistema atua na conversão de dados brutos, provenientes tanto de APIs quanto 
 - [x] Diário Oficial do Estado do Amazonas
 - [ ] Diário Oficial do Município de Manaus
 
-## Objetivos do Projeto
-O Sentinel-DO é orientado pela entrega de autonomia e agilidade no acesso a dados governamentais, focando nos seguintes pilares de valor:
-
-- **Antecipação de Prazos:** Reduzir o intervalo entre a publicação oficial e a tomada de decisão, garantindo que o usuário identifique editais de licitação, convocações de concursos e prazos recursais no momento exato de sua disponibilidade.
-
-- **Filtragem de Ruído Informacional:** Isolar termos críticos (ex: "Tomada de Preços", "Contratação", "Retificação") em meio ao volume massivo de páginas diárias, convertendo arquivos densos em alertas diretos e objetivos.
-
-- **Consolidação de Fontes Fragmentadas:** Centralizar o monitoramento de múltiplas esferas em uma interface única, eliminando a necessidade de conferência manual em portais com padrões de entrega distintos.
-
-- **Integridade e Rastreabilidade:** Manter um histórico persistente de edições processadas, assegurando que nenhuma publicação seja ignorada por falhas de rede, servindo como uma base de auditoria retroativa.
-
-- **Independência de Verificação:** Prover uma ferramenta técnica capaz de extrair dados de documentos não estruturados (PDF), garantindo acesso à informação mesmo em municípios que não possuem infraestrutura de dados moderna.
-
 ## Como usar
 
 Recomendamos o uso de um ambiente virtual para isolar as dependências:
@@ -52,17 +39,30 @@ Conexão estabelecida com a API IOA.
 -> Verificando 2026-03-23... [Fim de Semana/Sem Edição]
 ```
 
-## Status atual
-
-O projeto encontra-se em fase inicial, com foco na coleta e validação de dados do Diário Oficial do Amazonas.
-
-Funcionalidades implementadas:
+## Funcionalidades atuais
 - Coleta automatizada de edições via API
 - Varredura histórica por data
 - Controle de taxa de requisição
 
-Próximas etapas:
-- Download de PDFs e Docs
+## Próximas etapas:
+- Download de PDFs e documentos
 - Extração de conteúdo (PDF parsing)
 - Busca por palavras-chave
 - Sistema de notificações
+- OCR para documentos escaneados
+- Modelagem de banco de dados 
+- Estruturação e persistência de dados
+- Estruturação de JSON para API
+
+## Status atual
+O projeto encontra-se em fase inicial, com foco na coleta e validação de dados do Diário Oficial do Amazonas.
+
+## Documentação adicional
+
+- [IDEIA.md](docs/IDEIA.md): visão geral, problema, solução e diferenciais
+- [AI_CONTEXT.md](docs/AI_CONTEXT.md): contexto técnico e organizacional para uso de Agentes de IA
+- [DEV_NOTES.md](docs/DEV_NOTES.md): dúvidas e anotações internas e pessoais
+- [CONTRIBUTING.md](docs/CONTRIBUTING.md): guia para contribuições (FUTURO)
+- [USER_STORIES.md](docs/USER_STORIES.md): histórias de usuários (FUTURO)
+- [USER_CASES.md](docs/USER_CASES.md): atores, fluxos e cenários de uso (FUTURO)
+- [REQUISITOS.md](docs/REQUISITOS.md): requisitos funcionais e não funcionais (FUTURO)
